@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67d3635b-b317-4e76-8604-436079a2d442" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../01_funktsioon/Funktsioon_Kodune/Funktsioon_Kodune.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_funktsioon/Kodune1/Kodune1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Game/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +31,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,7 +62,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676027125081</updated>
-      <workItem from="1676027126160" duration="3198000" />
+      <workItem from="1676027126160" duration="7851000" />
+      <workItem from="1676035492310" duration="174000" />
+      <workItem from="1676568995846" duration="2369000" />
     </task>
     <servers />
   </component>
