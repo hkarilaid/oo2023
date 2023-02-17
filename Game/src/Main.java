@@ -1,4 +1,5 @@
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Main {
 
@@ -15,29 +16,44 @@ public class Main {
    //     byte pisikenumber = 127;
    //     short lyhikenumber = 123;
    //     long pikknumber = 12342342354L;
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        System.out.println(input);
 
         int worldWidth = 10;
         int worldHeight = 5;
 
-        int playerXcoordinate = getRandomCoordinate(worldWidth); //castimine ehk teisendamine ühest tüübist teise
-        int playerYcoordinate = getRandomCoordinate(worldHeight);
-        char playerSymbol = 'X';
-        int dragonXcoordinate = getRandomCoordinate(worldWidth);
-        int dragonYcoordinate = getRandomCoordinate(worldHeight);
-        char dragonSymbol = 'D';
-        int orcXcoordinate = getRandomCoordinate(worldWidth);
-        int orcYcoordinate = getRandomCoordinate(worldHeight);
-        char orcSymbol = 'O';
+        Player player = new Player(worldWidth, worldHeight);
+        Dragon dragon = new Dragon(worldWidth, worldHeight);
+        Orc orc = new Orc(worldWidth, worldHeight);
 
+        printMap(worldWidth, worldHeight,
+                player.xCoordinate, player.yCoordinate, player.symbol,
+                dragon.xCoordinate, dragon.yCoordinate, dragon.symbol,
+                orc.xCoordinate, orc.yCoordinate, orc.symbol);
+
+        while (!input.equals("end")) {
+            player.move(input);
+
+            printMap(worldWidth, worldHeight,
+                    player.xCoordinate, player.yCoordinate, player.symbol,
+                    dragon.xCoordinate, dragon.yCoordinate, dragon.symbol,
+                    orc.xCoordinate, orc.yCoordinate, orc.symbol);
+            System.out.println();
+            input = scanner.nextLine();
+        }
+    }
+
+    private static void printMap(int worldWidth, int worldHeight, int playerXcoordinate, int playerYcoordinate, char playerSymbol, int dragonXcoordinate, int dragonYcoordinate, char dragonSymbol, int orcXcoordinate, int orcYcoordinate, char orcSymbol) {
         //kõrgus
         // algväärtus    kuni    iga tsükkel
         for (int y = 0; y < worldHeight; y++) {
             System.out.println();
             // laius
             for (int x = 0; x < worldWidth; x++) {
-                if (y == 0 || y == worldHeight-1) {
+                if (y == 0 || y == worldHeight -1) {
                     System.out.print("-");
-                } else if (x == 0 || x == worldWidth-1) {
+                } else if (x == 0 || x == worldWidth -1) {
                     System.out.print("|");
                 } else {
 
