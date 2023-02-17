@@ -12,7 +12,6 @@ public class Main {
     }
 
 
-
     private static double getInput() {
         Scanner number = new Scanner(System.in);
         System.out.print("Kui palju sul raha on: ");
@@ -27,11 +26,11 @@ public class Main {
             return "Sul on pileti jaoks raha";
         }
     }
+
     private static double getMissing(double summa) {
-        return  10 - summa;
+        return 10 - summa;
+
+
+
     }
-
-
-
-
 }

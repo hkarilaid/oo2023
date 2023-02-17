@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67d3635b-b317-4e76-8604-436079a2d442" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../01_funktsioon/Funktsioon_Kodune/Funktsioon_Kodune.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01_funktsioon/Kodune1/Kodune1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_funktsioon/Kodune1/out/production/Kodune1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../01_funktsioon/Kodune1/out/production/Kodune1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_funktsioon/Kodune1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_funktsioon/Kodune1/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Game/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HKari/Documents/GitHub/oo2023/01_funktsioon/Kodune1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +63,8 @@
       <updated>1676027125081</updated>
       <workItem from="1676027126160" duration="7851000" />
       <workItem from="1676035492310" duration="174000" />
-      <workItem from="1676568995846" duration="2369000" />
+      <workItem from="1676568995846" duration="2966000" />
+      <workItem from="1676628805766" duration="26000" />
     </task>
     <servers />
   </component>
