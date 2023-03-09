@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
-        Kasutaja hendrik = new Kasutaja("hendrik","hendrik", "hendrik","hendrik","hendrik")
+        Kasutaja hendrik = new Kasutaja("hendrik","hendrik", "hendrik","hendrik","hendrik");
 
 
 
