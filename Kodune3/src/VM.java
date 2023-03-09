@@ -2,56 +2,38 @@ import java.sql.SQLOutput;
 
 public class VM {
 
-    String nimi;
-    int vcpu;
-    int ram;
-    int disk;
-    int vlan;
-    int vmkogus;
+    Info info;
     int i = 1;
-    int clustervcpu = 40;
+    int clustervcpu = 10;
     int clusterram = 500;
     int clusterdisk = 1000;
     boolean mahub;
 
 
-    public VM(String nimi, int vcpu, int ram, int disk, int vlan, int vmkogus) {
-        this.nimi = nimi;
-        this.vcpu = vcpu;
-        this.ram = ram;
-        this.disk = disk;
-        this.vlan = vlan;
-        this.vmkogus = vmkogus;
+    public VM(Info info) {
+        this.info = info;
     }
 
-
-
     public void mahtuvus() {
-        int totalvcpu = this.vcpu * this.vmkogus;
-        int totalram = this.ram * this.vmkogus;
-        int totaldisk = this.disk * this.vmkogus;
+        int totalvcpu = info.vcpu * info.vmkogus;
+        int totalram = info.ram * info.vmkogus;
+        int totaldisk = info.disk * info.vmkogus;
         if (totalvcpu <= clustervcpu && totalram <= clusterram && totaldisk <= clusterdisk){
             this.mahub = true;
-
-
-
         } else {
             this.mahub = false;
-
         }
-
 
     }
     public void looVM() {
         if(mahub){
-        while (i <= vmkogus) {
-            System.out.println("Loon virtukat: " + this.nimi + "-" + i);
-            i++;
-        }
+            while (i <= info.vmkogus) {
+                System.out.println("Loon virtukat: " + info.nimi + "-" + i);
+                i++;
+            }
         }else {
             System.out.println("Ei saa luua virtukaid");
         }
-
 
     }
     public String kasMahub() {
@@ -61,7 +43,6 @@ public class VM {
             return "Clustrisse ei mahu virtukad ära";
         }
     }
-
 
 }
 
