@@ -4,13 +4,14 @@ public class VM {
 
     Info info;
     int i = 1;
-    int clustervcpu = 10;
+    int clustervcpu = 50;
     int clusterram = 500;
     int clusterdisk = 1000;
     boolean mahub;
 
 
     public VM(Info info) {
+
         this.info = info;
     }
 
