@@ -48,6 +48,12 @@ public class World {
                       //  System.out.print(orcSymbol);
                         symbol = orcSymbol;
                     }
+      //              for (Character c: characters){
+       //                 if (c.xCoordinate == x && c.yCoordinate == y) {
+       //                     symbol = c.symbol;
+//
+       //                 }
+       //             }
 
 
                 }
