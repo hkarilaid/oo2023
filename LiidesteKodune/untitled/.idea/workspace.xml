@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b917b5a8-112b-4905-865c-66fb87323391" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/LiidesteKodune1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/src/Arvutused.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/src/SSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKodune1/src/SamsungQVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKoduneT66/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKoduneT66/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKoduneT66/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKoduneT66/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKoduneT66/LiidesteKoduneT66.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiidesteKoduneT66/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Jook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Toode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/Tooted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutomaatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Puuvili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Telefon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Toode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tooted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Arvutused.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/AutomaatTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Kolmnurk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Kolmnurk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Roopkulik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Ruut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/out/production/Kujundid/Tasapinnaline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Arvutused.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/AutomaatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Kolmnurk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Roopkulik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Ruut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_liides/Kujundid/src/Tasapinnaline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LiidesteKodune/src/Kujund.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LiidesteKodune/src/Kujund.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OO6P85n275XwIMliqjalmPRDDn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b917b5a8-112b-4905-865c-66fb87323391" name="Changes" comment="" />
+      <created>1681419256153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681419256153</updated>
+      <workItem from="1681419257106" duration="4337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$AutomaatTest.ic" NAME="AutomaatTest Coverage Results" MODIFIED="1681423550973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
