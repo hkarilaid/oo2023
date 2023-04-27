@@ -3,6 +3,7 @@ public class Kujund {
 
 
     public Kujund(String nimi) {
+
         this.nimi = nimi;
     }
 
