@@ -12,9 +12,14 @@ public class SSDController {
         return ssd;
     }
 
-    @GetMapping("change-price/{hind}")
-    public SSD changePrice(@PathVariable double hind) {
+    @GetMapping("muuda-hind/{hind}")
+    public SSD muudaHind(@PathVariable double hind) {
         ssd.setHind( hind );
+        return ssd;
+    }
+    @GetMapping("muuda-suurus")
+    public SSD muudaSuurust(@RequestParam double suurus) {
+        ssd.setSuurus( suurus );
         return ssd;
     }
 
