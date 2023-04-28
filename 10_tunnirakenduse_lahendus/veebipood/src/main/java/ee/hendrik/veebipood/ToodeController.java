@@ -1,4 +1,5 @@
 package ee.hendrik.veebipood;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -7,6 +8,11 @@ import java.util.List;
 
 @RestController
 public class ToodeController {
+
+    @Autowired
+    ToodeRepository toodeRepository;
+
+
     List<Toode> tooted = new ArrayList<>(Arrays.asList(
             new Toode(1,"Koola", 1.5),
             new Toode(2,"Fanta", 1.0),
@@ -17,13 +23,14 @@ public class ToodeController {
 
     @GetMapping("tooted")
     public List<Toode> saaTooted() {
-        return tooted;
+        return toodeRepository.findAll();
     }
 
 
-    @DeleteMapping("kustuta-toode/{index}")
-    public String kustutaToode(@PathVariable int index) {
-        tooted.remove(index);
+    @GetMapping("kustuta-toode/{id}")
+    public String kustutaToode(@PathVariable int id) {
+      //  tooted.remove(index);
+        toodeRepository.deleteById(id);
         return "Toode kustutatud!";
     }
 
@@ -32,7 +39,9 @@ public class ToodeController {
             @RequestParam int id,
             @RequestParam String nimi,
             @RequestParam double hind) {
-        tooted.add(new Toode(id, nimi, hind));
-        return tooted;
+ //       tooted.add(new Toode(id, nimi, hind));
+  //      return tooted;
+        toodeRepository.save(new Toode(id,nimi,hind));
+        return toodeRepository.findAll();
     }
 }
