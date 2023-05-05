@@ -45,9 +45,7 @@ public class TellimusController {
             @RequestParam int[] ssdID )
              {
 
-
-
-        List<Server> tellitudServer = new ArrayList<>();
+         List<Server> tellitudServer = new ArrayList<>();
         for (int i: serverID) {
             Server server = serverRepository.findById(i).get();
             tellitudServer.add(server);
