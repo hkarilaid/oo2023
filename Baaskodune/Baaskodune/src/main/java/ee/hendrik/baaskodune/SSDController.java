@@ -18,16 +18,21 @@ public class SSDController {
         return ssdRepository.findAll();
     }
 
-//    @GetMapping("muuda-hind/{hind}")
-//    public SSD muudaHind(@PathVariable double hind) {
-//        ssd.setHind( hind );
-//        return ssd;
-//    }
-//    @GetMapping("muuda-suurus")
-//    public SSD muudaSuurust(@RequestParam double suurus) {
-//        ssd.setSuurus( suurus );
-//        return ssd;
-//    }
+
+    // localhost:8080/muuda-hind?id=1&hind=15
+    @PostMapping("muuda-hind")
+    public List<SSD> muudaHind(
+            @RequestParam int id,
+            @RequestParam double hind) {
+        ssdRepository.findById(id).get().setHind(hind);
+        return ssdRepository.findAll();
+
+    }
+ //   @GetMapping("muuda-suurus")
+  //  public SSD muudaSuurust(@RequestParam double suurus) {
+  //      ssd.setSuurus( suurus );
+  //      return ssd;
+  //  }
 
     // localhost:8080/lisa-ssd?id=1&nimi=SamsungQVO&hind=129.9&suurus=2&energiaKasutus=3.0&garantii=3
     @GetMapping("lisa-ssd")

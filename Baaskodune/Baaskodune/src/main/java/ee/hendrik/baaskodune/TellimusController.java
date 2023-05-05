@@ -69,7 +69,7 @@ public class TellimusController {
     }
 
     // localhost:8080/saa-kogusumma?tellimuseID=2
-    @GetMapping("saa-kogusumma")
+    @GetMapping("tellimuse-kogusumma")
     public double saaKogusumma(
             @RequestParam int tellimuseID) {
         Optional<Tellimus> tellimusOptional = tellimusRepository.findById(tellimuseID);
