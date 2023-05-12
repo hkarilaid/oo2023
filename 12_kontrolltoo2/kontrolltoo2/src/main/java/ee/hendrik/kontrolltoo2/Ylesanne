@@ -1,0 +1,14 @@
+* Tee uus veebiprojekt.
+Loo klass Pood millel on omadustena kirjas nimetus, avamise ja sulgemise aeg ning külastanute arv.
+Lisa mõned poed andmebaasi.
+Loo API otspunkt, millele parameetrina antakse ette uuritav kellaaeg ning tagastatakse, kas pood on sel ajal lahti või kinni.
+Lisa API otspunkt külastamiseks, mis suurendab andmebaasis poe külastuste arvu ühe võrra.
+
+* Loo andmebaasi võimalus hoiustada Kaubanduskeskusi.
+Omadusteks anna kaubanduskeskusele nimetus ja kaubanduskeskusele poodide hoidla, millesse on salvestatud erisuguste lahtiolekuaegadega poed.
+Võimalda API otspunktist küsida kindlast kaubanduskeskusest etteantud ajal lahti olevaid poode.
+Tee API otspunkti kaudu kokkuarvutus, kui palju on selles kaubanduskeskuses kõiki poode kokku külastatud ning tagasta see arv.
+
+* Võimalda API otspunkti kaudu välja näidata numbrit, mitu külastust on tehtud kaubanduskeskusesse kindlal tunnil
+(andes sisendiks API otspunktilt selle tunni). Tee teine API otspunkt, mis tagastab kõige külastatavama poe selles tunnis.
+Tee kolmas API otspunkt, mis tagastab kõige külastatavama kaubanduskeskuse selles tunnis.
