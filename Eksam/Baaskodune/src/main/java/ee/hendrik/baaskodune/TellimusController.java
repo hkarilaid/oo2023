@@ -91,4 +91,19 @@ public class TellimusController {
         return kogusumma;
     }
 
+    // localhost:8080/energia-kasutus?serverID=1&ssdID=2
+    @GetMapping("energia-kasutus")
+    public String saaEnergiaKasutus(
+            @RequestParam int serverID,
+            @RequestParam int ssdID ) {
+        Server server = serverRepository.findById(serverID).get();
+        SSD ssd = ssdRepository.findById(ssdID).get();
+        double serverW = server.getEnergiaKasutus();
+        double serverbay = server.getKettaBayd();
+        double ssdW = ssd.getEnergiaKasutus();
+
+        double energiakasutus = serverW + (serverbay * ssdW);
+        return "Selle komplekti enegiakasutus on: " + energiakasutus + "w";
+    }
+
 }
